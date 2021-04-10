@@ -132,7 +132,7 @@ class Rouge:
         return scores
 
     def _get_avg_scores(self, hyps, refs):
-        # FinRouge: MODIFICATIONS MADE HERE to implement FinRouge
+        # FinRouge: MODIFICATIONS MADE HERE TO IMPLEMENT FinRouge
         double = False
         matches = 0
         for word in ['corp', 'corporation', 'company', 'stock', 'share', 'shares', 'stakeholder', 'financial', '$', 'economy', 'booming', 'bust']:
