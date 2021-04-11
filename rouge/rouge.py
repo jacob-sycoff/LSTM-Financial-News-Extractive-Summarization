@@ -135,7 +135,7 @@ class Rouge:
         # FinRouge: MODIFICATIONS MADE HERE TO IMPLEMENT FinRouge
         double = False
         matches = 0
-        for word in ['corp', 'corporation', 'company', 'stock', 'share', 'shares', 'stakeholder', 'financial', '$', 'economy', 'booming', 'bust']:
+        for word in ['corp', 'corporation', 'company', 'stock', 'share', 'shares', 'stakeholder', 'financial', '$', 'economy', 'booming', 'bust','quarter', 'earnings','shareholder','appoints','appointed','reports']:
             for sent in hyps:
                 if word in sent.split():
                     double = True
